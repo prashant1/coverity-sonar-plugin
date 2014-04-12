@@ -86,6 +86,7 @@ public final class CoverityPlugin extends SonarPlugin {
                         .onlyOnQualifiers(Qualifiers.PROJECT)
                         .index(++i)
                         .build(),
+                        
 
                 //Batch
                 CoveritySensor.class,
